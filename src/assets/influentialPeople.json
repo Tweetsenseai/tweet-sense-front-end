@@ -4,10 +4,14 @@
     "photoUrl": "https://www.whitehouse.gov/wp-content/uploads/2017/11/President-Trump-Official-Portrait-200x200.jpg",
     "pastCharts": [
       {
-        "link": "https://public.tableau.com/views/GlobalAIHackathon/Story1?:language=en&:display_count=y&publish=yes&:origin=viz_share_link&:showVizHome=no&embed=true"
+        "link": "https://public.tableau.com/views/GlobalAIHackathon/EffectofTweetsonStockPrice?:language=en&:display_count=y&:origin=viz_share_link"
       }
     ],
-    "predictionsCharts": []
+    "predictionsCharts": [
+      {
+        "link": "https://public.tableau.com/views/ForecastingfutureStockprice/ForecastingfutureStockprice?:language=en&:display_count=y&publish=yes&:origin=viz_share_link"
+      }
+    ]
   },
   {
     "name": "Barack Obama",

@@ -2,7 +2,7 @@
   <div>
     <nav class="navigation">
       <div class="tab__link" @click="setSelectedTab('past')">
-        <div class="tab" :class="{selected: tabSelected==='past'}">Past Informations</div>
+        <div class="tab" :class="{selected: tabSelected==='past'}">NLP sentiment analysis</div>
       </div>
       <div class="tab__link" @click="setSelectedTab('predictions')">
         <div class="tab" :class="{selected: tabSelected==='predictions'}">Predictions</div>
