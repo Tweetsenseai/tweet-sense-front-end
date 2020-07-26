@@ -1,12 +1,14 @@
 <template>
-  <div class="home-main">
+  <div class="home-container">
     <first-header selected="home" />
-    <img class="detail left" src="@/assets/yellow-square.svg" alt="detail" />
-    <img class="detail right" src="@/assets/yellow-square.svg" alt="detail" />
-    <div class="central-text-box">
-      <h1 class="title">TWEET SENSE</h1>
-      <div class="horizontal-band"></div>
-      <h3 class="subtitle">TWEETS WITH AN IMPACT</h3>
+    <div class="home-main">
+      <img class="detail left" src="@/assets/yellow-square.svg" alt="detail" />
+      <img class="detail right" src="@/assets/yellow-square.svg" alt="detail" />
+      <div class="central-text-box">
+        <h1 class="title">TWEET SENSE</h1>
+        <div class="horizontal-band"></div>
+        <h3 class="subtitle">TWEETS WITH AN IMPACT</h3>
+      </div>
     </div>
   </div>
 </template>
@@ -19,6 +21,13 @@ export default {
 };
 </script>
 <style>
+.home-container {
+  overflow: hidden;
+  height: 100vh;
+}
+.nav-bar {
+  margin-bottom: 0;
+}
 .home-main {
   background-image: linear-gradient(
       var(--color-green),
@@ -26,8 +35,8 @@ export default {
     ),
     url("../assets/city.jpg");
   background-size: cover;
-  height: 100vh;
   width: 100vw;
+  height: 100%;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -71,6 +80,11 @@ export default {
   width: 100%;
   background-color: var(--color-yellow);
   height: 9px;
+}
+@media only screen and (max-width: 1400px) {
+  .title {
+    font-size: 3.8em;
+  }
 }
 @media only screen and (max-width: 600px) {
   .detail {

@@ -39,11 +39,15 @@ export default {
 };
 </script>
 <style scoped>
+:link {
+  margin: 0;
+}
 .main-page {
   min-height: 100vh;
   width: 55em;
   max-width: 100%;
   margin: 0 auto;
+  margin-top: 2em;
 }
 .central-text-box {
   width: unset;
@@ -61,7 +65,7 @@ export default {
 }
 .title {
   color: var(--color-green);
-  font-size: 2em;
+  font-size: 1.7em;
   word-spacing: normal;
 }
 .horizontal-band {
