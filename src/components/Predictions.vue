@@ -2,31 +2,21 @@
   <div class="graphs-container">
     <div v-for="(prediction, index) in person.predictionsCharts" :key="index" class="graph">
       <p class="graph-title">{{prediction.title}}</p>
-      <iframe
-        frameborder="0"
-        allowtransparency="true"
-        allowfullscreen="true"
-        title="Data Visualization"
-        marginheight="0"
-        marginwidth="0"
-        scrolling="no"
-        :src="prediction.link"
-      ></iframe>
+      <custom-iframe :link="prediction.link" />
     </div>
   </div>
 </template>
 <script>
+import CustomIframe from "./CustomIframe";
+
 export default {
   props: ["person"],
+  components: {
+    CustomIframe,
+  },
 };
 </script>
 <style>
-iframe {
-  display: block;
-  width: 1020px;
-  height: 1196px;
-  visibility: visible;
-}
 .graphs-container {
   margin: 2em 0;
 }

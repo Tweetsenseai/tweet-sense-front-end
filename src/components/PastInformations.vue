@@ -2,31 +2,20 @@
   <div class="graphs-container">
     <div v-for="(pastChart, index) in person.pastCharts" :key="index" class="graph">
       <p class="graph-title">{{pastChart.title}}</p>
-      <iframe
-        frameborder="0"
-        allowtransparency="true"
-        allowfullscreen="true"
-        title="Data Visualization"
-        marginheight="0"
-        marginwidth="0"
-        scrolling="no"
-        :src="pastChart.link"
-      ></iframe>
+      <custom-iframe :link="pastChart.link" />
     </div>
   </div>
 </template>
 <script>
+import CustomIframe from "./CustomIframe";
 export default {
+  components: {
+    CustomIframe,
+  },
   props: ["person"],
 };
 </script>
 <style>
-iframe {
-  display: block;
-  width: 1020px;
-  height: 1196px;
-  visibility: visible;
-}
 @media only screen and (max-width: 600px) {
   iframe {
     overflow: scroll;
