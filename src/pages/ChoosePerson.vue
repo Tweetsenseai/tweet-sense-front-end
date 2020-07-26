@@ -5,7 +5,7 @@
       <div class="central-text-box">
         <h1 class="title">INFLUENTIAL PEOPLE</h1>
         <div class="horizontal-band"></div>
-        <h3 class="subtitle">CHOOSE ONE TO SEE HIS TWEETS IMPACTS</h3>
+        <h3 class="subtitle">SELECT ONE TO UNDERSTAND THE IMPACTS</h3>
       </div>
       <div class="people-list">
         <person-card

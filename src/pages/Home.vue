@@ -79,7 +79,7 @@ export default {
 .horizontal-band {
   width: 100%;
   background-color: var(--color-yellow);
-  height: 9px;
+  height: 4px;
 }
 @media only screen and (max-width: 1400px) {
   .title {

@@ -7,7 +7,7 @@
       <div class="button" :class="{selected: selected==='about'}">About</div>
     </router-link>
     <router-link :to="{name: 'choose-person'}" class="tab__link">
-      <div class="button" :class="{selected: selected==='choose-person'}">TweetLytics</div>
+      <div class="button" :class="{selected: selected==='choose-person'}">Tweetlytics</div>
     </router-link>
   </nav>
 </template>
