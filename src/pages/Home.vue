@@ -29,16 +29,9 @@ export default {
   height: 100vh;
   width: 100vw;
   display: flex;
-  position: fixed;
   flex-direction: column;
   position: relative;
   overflow: hidden;
-}
-.button {
-  /* color: var(--color-green); */
-}
-.button::before {
-  /* background-color: var(--color-green); */
 }
 .detail {
   position: absolute;

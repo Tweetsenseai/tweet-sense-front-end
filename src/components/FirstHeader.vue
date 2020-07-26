@@ -16,12 +16,13 @@ export default {
   props: ["selected"],
 };
 </script>
-<style scoped>
+<style>
 .nav-bar {
   width: 100%;
   background-color: white;
   display: flex;
   justify-content: center;
+  margin-bottom: 2em;
 }
 .button {
   color: var(--color-green);
