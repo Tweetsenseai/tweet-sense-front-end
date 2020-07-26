@@ -9,7 +9,7 @@
         <div class="horizontal-band"></div>
         <h4
           class="subtitle"
-        >Sentiment analysis on tweets of influential people and correlate with socio-economic impacts of those tweets across the globe and make predictions for future impact of tweets and comments by influential people</h4>
+        >Sentiment analysis of the tweets of influential people, the resultant emotional sentiments and their impacts on socio-economic spheres</h4>
       </div>
     </div>
   </div>
